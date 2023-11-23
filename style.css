@@ -1,0 +1,100 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #fde8e8; /* Tom de rosa claro */
+    color: #4a4a4a; /* Tom de cinza escuro para o texto */
+}
+
+header {
+    background-color: #ff7070; /* Tom de vermelho rosado */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    margin: 20px;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 40px 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    color: #ff7070; /* Tom de vermelho rosado */
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #ff7070; /* Tom de vermelho rosado */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.glide__arrows {
+    margin-top: 20px;
+}
+
+.glide__arrow {
+    background-color: #ff7070; /* Tom de vermelho rosado */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease-in-out;
+}
+
+.glide__arrow:hover {
+    background-color: #e5673b; /* Tom de laranja rosado */
+    transform: translateY(-3px);
+}
+
+/* Corações no fundo */
+body::before {
+    content: '❤️';
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 8em;
+    color: #fde8e8;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+body::after {
+    content: '❤️';
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 8em;
+    color: #fde8e8;
+    opacity: 0.1;
+    z-index: -1;
+}
