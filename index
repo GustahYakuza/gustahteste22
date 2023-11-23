@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+    <title>Álbum de Amor</title>
+</head>
+<body>
+    <header>
+        <h1>Álbum de Amor</h1>
+    </header>
+    <main>
+        <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <!-- Adicione suas imagens aqui -->
+                    <li><img src="imagem1.jpg" alt="Imagem 1"></li>
+                    <li><img src="imagem2.jpg" alt="Imagem 2"></li>
+                    <li><img src="imagem3.jpg" alt="Imagem 3"></li>
+                    <!-- Adicione quantas imagens desejar -->
+                </ul>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="<">Anterior</button>
+                <button class="glide__arrow glide__arrow--right" data-glide-dir=">">Próxima</button>
+            </div>
+        </div>
+        <section id="declaration">
+            <div class="container">
+                <h2>Minha Declaração de Amor</h2>
+                <p>Você é a razão do meu sorriso, a inspiração dos meus dias e a batida do meu coração. Nossa jornada juntos é um conto de amor que só cresce mais forte com o tempo. Te amo mais do que as palavras podem expressar.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Álbum de Amor</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script src="script.js"></script>
+</body>
+</html>
